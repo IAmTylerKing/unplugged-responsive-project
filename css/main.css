@@ -197,6 +197,9 @@ aside {
 footer {
   flex-direction: column;
 }
+footer p {
+  margin: 0;
+}
 
 footer .social-icons {
   display: flex;
@@ -211,7 +214,7 @@ footer .social-icons p {
 }
 
 footer .contact {
-  margin:0 0 45px ;
+  margin-bottom: 45px ;
 }
 
 footer .content-wrapper {
@@ -220,12 +223,12 @@ footer .content-wrapper {
 }
 
 footer .copyright {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 /* About Page */
 
-.misison {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,6 +256,13 @@ footer .copyright {
   align-items:center;
   flex-flow:row wrap;
 }
+
+.faq h2, .faq-content {
+  margin-bottom: 40px;
+}
+
+
+
 
 
 
