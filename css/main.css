@@ -86,71 +86,56 @@ textarea {
 /* ==========================================================================
    /***** Author's custom styles *****/
 
+/* General Styles */
 
-   /* General Styles */
+html {
+  font-size: 16px;
+}
 
-   html {
-     font-size: 16px;
+body {
+  font-family: "Open Sana", sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
+}
 
-   }
+ul,
+ol {
+  list-style-type: none;
+}
 
-   body {
-     font-family: 'Open Sana', sans-serif;
-     font-size: 1em;
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-   }
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
 
-   ul,
-   ol {
-     list-style-type: none;
-   }
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin: 20px 0;
+}
 
-   a {
-     color: #e2e3ed;
-     text-decoration: none;
+p {
+  font-size: 0.875em;
+  line-height: 1.125em;
+}
 
-   }
+address {
+  font-style: normal;
+}
 
-   h2 {
-     font-family: 'Poppins', sans-serif;
-      font-size:  1.875em;
-
-   }
-
-   h3, h4 {
-       font-family: 'Poppins', sans-serif;
-       font-size: 1.125em;
-   }
-
-   p {
-     font-size: 0.875em;
-     line-height: 1.125em ;
-
-   }
-
-/*
-   img {
-     
-
-   }
-
-   figure {
-
-   }
-
-   */
-
-   address {
-     font-style: normal;
-
-   }
-
-   .content-wrapper {
+.content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
-
-
 
 /***** BASE HEADER - FOOTER STYLES *****/
 header,
@@ -159,12 +144,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+   background-color: #202322;
 }
 
 .header-divider {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 
 header {
@@ -185,6 +172,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-weight: 700;
+  font-size: 1.125em;
 }
 
 header nav ul {
@@ -193,7 +182,10 @@ header nav ul {
   width: 100%;
 }
 
-/***** Mobile Styles for Homepage *****/
+/*****  Base styles for all pages  *****/
+
+
+
 
 /* Hero Area */
 .hero-area {
@@ -202,13 +194,52 @@ header nav ul {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-family: 'Poppins',  Helvetica, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Aside */
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+  background-color: #527158;
 }
+
+
+aside.form {
+  margin-top: 30px;
+}
+
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins' Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* Features */
 
@@ -216,10 +247,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+ 
 }
 
 .features h2 {
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .features .features-items {
@@ -235,8 +267,10 @@ margin-bottom: 60px;
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
+
 
 /* Reviews */
 
@@ -244,19 +278,24 @@ margin-bottom: 60px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #fff;
 }
 .reviews h3 {
-  width: 48%;
+  width: 55%;
   margin: 20px 0;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  font-weight: normal;
+  line-height: 1;
 }
 
 /* Footer Styles */
 footer {
   flex-direction: column;
+  text-align: center;
 }
 footer p {
   margin: 0;
@@ -276,6 +315,7 @@ footer .social-icons p {
 
 footer .contact {
   margin-bottom: 50px;
+ 
 }
 
 footer .content-wrapper {
@@ -285,9 +325,6 @@ footer .content-wrapper {
 
 footer .copyright {
   margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* About Page */
@@ -532,7 +569,6 @@ footer .copyright {
     align-items: flex-start;
   }
 
-
   /* ==========================================================================
      Faq Page
     ========================================================================== */
@@ -548,7 +584,6 @@ footer .copyright {
   .faq h2 {
     width: 100%;
   }
-
 }
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
@@ -556,7 +591,7 @@ footer .copyright {
   .content-wrapper {
     max-width: 960px;
   }
- 
+
   /* Hero Area */
 
   .hero-area h1 {
@@ -566,8 +601,7 @@ footer .copyright {
   /* Aside Area */
 
   aside .content-wrapper {
-
-      justify-content:space-around ;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description,
@@ -587,27 +621,25 @@ footer .copyright {
 
   /* Review Area */
   .reviews article div {
-      width: 46%;
+    width: 46%;
   }
 
   /* ==========================================================================
    About Page
    ========================================================================== */
 
-   .misson h2,
-   .contact-section .content-wrapper h2 {
-     width: 96%;
-   }
+  .misson h2,
+  .contact-section .content-wrapper h2 {
+    width: 96%;
+  }
 
-   /* ==========================================================================
+  /* ==========================================================================
    Faq Page
    ========================================================================== */
 
-   .faq h2 {
-     width: 100%;
-   }
-
-
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
