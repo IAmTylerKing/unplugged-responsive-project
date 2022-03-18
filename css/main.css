@@ -334,6 +334,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -341,6 +342,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 .contact-content p {
   margin: 0;
@@ -353,6 +355,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 .faq .content-wrapper {
   margin: 50px 0 0 0;
