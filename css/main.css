@@ -211,7 +211,7 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url("/..img/jake-melara-30679-unsplash.png");
+  background-image: url("../img/jake-melara-30679-unsplash.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
