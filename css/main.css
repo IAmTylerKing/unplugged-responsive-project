@@ -252,7 +252,7 @@ input[type="button"] {
   padding: 20px 0;
   margin-top: 20px;
   background-color: #2a423a;
-  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   color: #e2e3ed;
@@ -306,7 +306,6 @@ input[type="button"] {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #2a423a;
-
 }
 
 .reviews figure {
@@ -354,9 +353,8 @@ footer .copyright {
   margin: 20px 0;
 }
 
-footer  .social-icons p i {
- font-size: 1.3125em;
-
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .social-icons p {
@@ -433,7 +431,7 @@ footer .social-icons p {
 }
 
 .faq-content h4 {
-  line-height:1.333;
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -559,8 +557,8 @@ footer .social-icons p {
     justify-content: space-between;
   }
   /* If your nav bar is still too close together come back to me */
-  header nav  {
-    width:30%;
+  header nav {
+    width: 30%;
   }
 
   header nav ul {
@@ -601,7 +599,7 @@ footer .social-icons p {
     flex-basis: 50%;
   }
   .features .features-item-description {
-    width:62%;
+    width: 62%;
   }
 
   .features i {
@@ -619,14 +617,14 @@ footer .social-icons p {
     width: 85%;
   }
 
-  .reviews article figure, 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
 
   .reviews h3 {
     width: 75%;
-    margin:0 ;
+    margin: 0;
   }
 
   footer .content-wrapper {
@@ -634,7 +632,7 @@ footer .social-icons p {
     margin: 100px 0;
   }
 
-   footer .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -644,7 +642,7 @@ footer .social-icons p {
     margin-bottom: 0;
   }
 
-  footer h4{
+  footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
@@ -692,9 +690,8 @@ footer .social-icons p {
   }
 
   .map figure {
-  padding-bottom: 45.5%;
-
-}
+    padding-bottom: 45.5%;
+  }
 
   /* ==========================================================================
      Faq Page
@@ -714,7 +711,7 @@ footer .social-icons p {
 
   .faq h4,
   .faq p {
-    font-size: .875em;
+    font-size: 0.875em;
     line-height: 1.125em;
   }
 }
@@ -722,7 +719,7 @@ footer .social-icons p {
   /* Desktop styles here */
 
   header {
-    padding: 15px 0 ;
+    padding: 15px 0;
   }
 
   .content-wrapper {
@@ -738,7 +735,7 @@ footer .social-icons p {
     font-size: 1.875em;
   }
 
-  p{
+  p {
     font-size: 1.125em;
     line-height: 1.333;
   }
@@ -798,13 +795,12 @@ footer .social-icons p {
     font-size: 3em;
   }
 
-    .map figure {
-  padding-bottom: 37.5%;
-
-    } 
-    .contact-content h4 {
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  .contact-content h4 {
     font-size: 1.875em;
-    }   
+  }
 
   /* ==========================================================================
    Faq Page
@@ -812,7 +808,7 @@ footer .social-icons p {
 
   .faq h2 {
     width: 100%;
-    font-size:3em ;
+    font-size: 3em;
   }
 
   .faq h4,
